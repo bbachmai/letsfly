@@ -2,8 +2,8 @@ var map;
 var popup_closed = 1;
 function createMap () {
 	var options = {
-		center: { lat: 46.5, lng: 8.47 },
-		zoom: 6,
+		center: { lat: 47.42, lng: 11.65 },
+		zoom: 8,
 		mapTypeId: google.maps.MapTypeId.TERRAIN
 	};
 	map = new google.maps.Map(document.getElementById('map'), options);
