@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Let's Fly!</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<header>
+			<nav>
+				<h1> 
+				<p> <span id="title">Let's Fly!</span> </p>
+				<p> <span id="acronym">Der interaktive Video-Atlas für alpine Segelflugrouten</span> </p>
+				</h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">Was ist das?</a></li>
+					<li><a href="join.html">Mitmachen</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<li>
+			<input type="checkbox" id = "therm" name="therm" onclick = "createMap()"  checked>
+			<label for="therm">Thermik</label>
+			<input type="checkbox" id = "wave" name="wave" onclick = "createMap()" >
+			<label for="therm">Wind</label>
+		</li>
+		
+		<div id="map"></div>
+		<script src="script.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzUJkLWw5ZINf52Bg2PfHXWfYfpZCVwqg&callback=createMap" 
+		async defer></script>
+	</body>
+	
+</html>

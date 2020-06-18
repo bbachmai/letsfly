@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+header {
+	background: #999;
+	color: white;
+	margin: 0;
+}
+
+#title {
+	font-size: 100px;
+	font-family: arial;
+	color: black;
+	margin: 0;
+}
+
+#acronym {
+	font-size: 20px;
+	font-family: arial;
+	margin: 0;
+}
+
+nav ul li {
+	background: black;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+	border-radius: 7px;
+	width: 95px;
+	margin: 5px;
+}
+
+nav ul li a {
+	color: white;
+	font-family: arial;
+	font-style: underline;
+	}
+
+.ac {
+	color: black;
+}
+
+#map {
+	height: 500px;
+}
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
